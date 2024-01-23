@@ -1,0 +1,9 @@
+spring:
+    data:
+      mongodb:
+        database: Anime
+        # host: javamongodb #rodar aplicação no dcoker
+        host: localhost #rodar a aplicação local
+        port: 27017
+server:
+  port: 8090
